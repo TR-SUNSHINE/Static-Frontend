@@ -6,11 +6,11 @@ As part of this project the Static-Frontend repository will be used to version c
 ### Navigate to working directory <br>
 &ensp; git clone https://github.com/TR-SUNSHINE/Static-Frontend.git <br>
 
-##GitHub Commit Messages
+## GitHub Commit Messages
 
 The below naming convention should be used when committing any change to any repository in this project:
 
-###Type of change
+### Type of change
 FEAT: The new feature you're adding to a particular application
 FIX: A bug fix
 STYLE: Feature and updates related to styling
@@ -18,13 +18,13 @@ REFACTOR: Refactoring a specific section of the codebase
 TEST: Everything related to testing
 DOCS: Everything related to documentation
 
-###Usage
+### Usage
 The first word of the commit should be the keyword from the ‘Type of change’ listed above with capitalization of the first character.
 Followed by a semicolon and space character.
 Followed by a brief description of the change where the first character of the sentence is capitalized.
 Total length of the commit message is limited to 50 chars.
 
-###Example
+### Example
 For fixing a bug in code, the commit message would be similar to below:
 
 Fix: Null Exception in Function GetWeather
