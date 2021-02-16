@@ -11,12 +11,12 @@ As part of this project the Static-Frontend repository will be used to version c
 The below naming convention should be used when committing any change to any repository in this project:
 
 ### Type of change
-FEAT: The new feature you're adding to a particular application
-FIX: A bug fix
-STYLE: Feature and updates related to styling
-REFACTOR: Refactoring a specific section of the codebase
-TEST: Everything related to testing
-DOCS: Everything related to documentation
+FEAT: The new feature you're adding to a particular application<br>
+FIX: A bug fix<br>
+STYLE: Feature and updates related to styling<br>
+REFACTOR: Refactoring a specific section of the codebase<br>
+TEST: Everything related to testing<br>
+DOCS: Everything related to documentation<br>
 
 ### Usage
 The first word of the commit should be the keyword from the ‘Type of change’ listed above with capitalization of the first character.
