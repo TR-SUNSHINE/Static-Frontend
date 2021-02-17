@@ -14,17 +14,17 @@ body {
 }
 
 .frame {
-  border: 1px solid #1789FC;
+  border: 5px solid #1789FC;
 }
 
 /* index.html page */
 
 .button__container {
-  margin: 5%;
+  text-align: center;
+  padding: 1rem;
 }
 
 .frame--sunshine {
-  width: 30vw;
   margin: 2% auto;
 }
 
