@@ -1,7 +1,13 @@
 /* register-login page */
+.heading {
+  margin:auto;
+  color:#595bd3;
+}
 .pict-responsive {
     width: 50%;
     height: auto;
+    display: flex;
+    margin:auto;
 
 }
 
@@ -14,6 +20,7 @@
     cursor: pointer; /* Pointer/hand icon */
     width: 120px; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
+    align-items: center;
    }
   
   .btn-group button:not(:last-child) {
