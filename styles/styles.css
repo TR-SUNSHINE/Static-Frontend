@@ -90,8 +90,6 @@ body {
 }
 
 .individual__weather__container {
-
-  /* height: 30vh; */
   overflow: auto;
   white-space: nowrap;
 }
@@ -102,9 +100,6 @@ body {
 .weather {
   padding: 1rem;
 }
-
-
-
 
 /* Media Queries to match Bootstrap viewport sizes */
 /* Small - ≥576px */
