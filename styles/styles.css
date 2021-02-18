@@ -1,7 +1,21 @@
-/* register-login page */
+/* register page */
+.header {
+  text-align: center;
+  margin-top: 5%;
+}
+
 .heading {
   margin:auto;
-  color:#595bd3;
+  color: #296EB4;
+}
+
+.form-register{
+  color: #296EB4;
+  /* border-color:  #FDB833; */
+
+}
+.form-control {
+  border-block-color: #FDB833
 }
 .pict-responsive {
     width: 50%;
