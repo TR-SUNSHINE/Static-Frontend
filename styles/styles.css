@@ -53,7 +53,7 @@ body {
 
 .ratings i {
     color: #cecece;
-    font-size: 32px
+    font-size: 32px;
 }
 
 .rating-color {
@@ -72,10 +72,16 @@ body {
 }
 
 .review-stat {
-    font-weight: 300;
+    font-weight: 500;
     color: #296EB4;
     font-size: 18px;
     margin-bottom: 2px
+}
+
+.line-horizontal {
+  color: #296EB4;
+  size: 5;
+  width: 100%;
 }
 
 /* individual_walk.html page */
