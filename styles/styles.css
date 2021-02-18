@@ -1,34 +1,48 @@
 /* General styling */
 
 body {
-  background-color: white;
+    background-color: white;
 }
 
-.header{
-  text-align: center;
-  margin-top: 5%;
+.header {
+    text-align: center;
+    margin-top: 5%;
 }
 
 .heading {
-  color: #296EB4
+    color: #296EB4
+}
+
+.heading3 {
+    text-align: center;
+    color: #296EB4
 }
 
 .frame {
-  border: 1px solid #1789FC;
+    border: 1px solid #1789FC;
 }
+
 
 /* index.html page */
 
 .button__container {
-  margin: 5%;
+    margin: 5%;
 }
 
 .frame--sunshine {
-  width: 30vw;
-  margin: 2% auto;
+    width: 30vw;
+    margin: 2% auto;
 }
 
-.img--sunshine{
-  display: block;
-  margin: 0 auto;
+.img--sunshine {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* individual_walk.html page */
+
+.star_checked {
+    color: orange;
+    font-size: xx-large;
 }
