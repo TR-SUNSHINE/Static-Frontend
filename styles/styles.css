@@ -2,15 +2,13 @@
 
 body {
   background-color: white;
+  color: #296EB4
+
 }
 
 .header{
   text-align: center;
   margin-top: 5%;
-}
-
-.heading {
-  color: #296EB4
 }
 
 .frame {
@@ -73,6 +71,36 @@ body {
 }
 
 /* weather_page */
+
+.frame--weather {
+  margin: 2% auto;
+}
+
+.img--map{
+  display: block;
+  margin: 0 auto;
+  height: 30vh;
+  width:70vw;
+}
+
+.weather__container {
+  text-align: center;
+  margin-top: 1rem; 
+
+}
+
+.individual__weather__container  {
+  width: 10vw;
+  height: 30vh;
+  overflow-x: scroll;
+}
+
+/* .weather__container .row .col-3{
+  display: inline-block;
+  float: none; 
+} */
+
+
 
 
 /* Media Queries to match Bootstrap viewport sizes */
