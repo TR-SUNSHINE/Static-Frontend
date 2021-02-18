@@ -28,11 +28,11 @@ If the feature name is more than one word then each word must be separated with 
 
 #### Usage
 For creating a new branch the git command would be similar to below:
-git checkout -b FEAT_sunshine_api
+git checkout -b FEAT_sunshine_api  <br/>
 For pushing a change to the remote branch the git command would be similar to the below commands:
-git add .
-git commit -m “FEAT: Individual_walk”
-git push origin br_sunshine_api
+git add .  <br/>
+git commit -m “FEAT: Individual_walk”  <br/>
+git push origin br_sunshine_api  <br/>
 	
 ### Merging changes to the main branch
 Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
@@ -54,8 +54,7 @@ Add a descriptive comment about each change you are wanting to merge
 Assign two members in the team to the list of reviewers on the right hand side
 Each reviewer will receive a notification to review the merge. Once each member in the team has performed a review and approve the final approver should perform the  action of merging the change by pressing the Merge button which will merge the changes to the main branch.
 
-a) commit to your local branch b) checkout to main c) pull from main d) checkout to branch e) git merge main f) push form your local branch to the remote (“origin”) branch and finally g) do a request to merge into main
-Commit Messages
+### Commit Messages
 The commit command is used to save changes to a local repository after staging in Git.
 
 The below naming convention and rules should be used when committing any change to any repository in this project:
