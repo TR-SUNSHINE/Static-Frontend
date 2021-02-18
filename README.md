@@ -40,11 +40,11 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 #### Usage
 Merging to the main branch should happen by each team member once per day
 When a member of the team has completed work in their branch they should first initiate a pull from the remote main branch to their local main branch following the below commands (FEAT_sunshine_api represents the name of the branch that was created which contains the code changes):
-git checkout main
-git pull origin main
-git checkout FEAT_sunshine_api
-git merge main
-git push origin FEAT_sunshine_api
+git checkout main <br/>
+git pull origin main <br/>
+git checkout FEAT_sunshine_api <br/>
+git merge main <br/>
+git push origin FEAT_sunshine_api <br/>
 Before merging the changes to the remote main branch you should initiate a pull request via the pull request menu at the top of the repository in GitHub.
 Set the base branch as main
 Set the compare branch to the branch containing the change
