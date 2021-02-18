@@ -109,3 +109,25 @@ body {
 @media only screen and (min-width: 1400px) {
  
 }
+/* register page */
+.form-register {
+    padding-block: 5px;
+    color:#296EB4;
+    padding: 10px;
+    margin: 5%;
+    border: 2px solid #fdbb33;
+}
+
+.form-control{
+    border: 1px solid #fdbb33;
+    padding: 8px;
+    margin-top:4px;
+}
+
+.form-label{
+    padding: 8px;
+    margin: 0px 0px 8px 8px;
+}
+.row{
+    align-items: center;
+}
