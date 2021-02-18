@@ -11,11 +11,11 @@ As part of this project the Static-Frontend repository will be used to version c
 ### Change Type
 Throughout the project there will be changes that fall into different categories depending on the piece of work that is going to be delivered. Each change type is categorised as below:
 
-FEAT: The new feature you're adding to a particular application
-FIX: A bug fix
-STYLE: Feature and updates related to styling
-REFACTOR: Refactoring a specific section of the codebase
-TEST: Everything related to testing
+FEAT: The new feature you're adding to a particular application <br/>
+FIX: A bug fix <br/>
+STYLE: Feature and updates related to styling <br/>
+REFACTOR: Refactoring a specific section of the codebase <br/>
+TEST: Everything related to testing <br/>
 DOCS: Everything related to documentation
 
 ### New Branches
@@ -71,6 +71,5 @@ For fixing a bug in code the git command would be similar to below:
 git commit -m “FIX: Null Exception in Function GetWeather”
 
 ### Branch Rules
-The following branch rules have been applied to each coding repository to enforce a workflow for each bra
-nch. In this project we are enforcing a two step review and approval by the code owner.
+In this project we are enforcing a two step review and approval by the code owner for each change to each branch.
 
