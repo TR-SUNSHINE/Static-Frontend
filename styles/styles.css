@@ -2,6 +2,7 @@
 .header {
   text-align: center;
   margin-top: 5%;
+  padding-bottom: 18px;
 }
 
 .heading {
@@ -9,13 +10,24 @@
   color: #296EB4;
 }
 
-.form-register{
-  color: #296EB4;
-  /* border-color:  #FDB833; */
+.container-fluid{
+  margin: 10px;
+  outline: 1px solid #FDB833;
+  padding: 10px;
 
 }
+
+.form-register{
+  color: #296EB4;
+  margin: 15px;
+  
+}
+.form-group {
+  padding-block: 4px 6px;
+}
 .form-control {
-  border-block-color: #FDB833
+  border-block-color: #FDB833;
+  
 }
 .pict-responsive {
     width: 50%;
