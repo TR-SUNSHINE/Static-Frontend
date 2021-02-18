@@ -69,6 +69,6 @@ The below naming convention and rules should be used when committing any change 
 <i>-git commit -m “FIX: Null Exception in Function GetWeather” </i>
 
 ### Branch Rules
-1)A two step review and one step approval is required to merge from the remote branch to the remote repository.
+1) A two step review and one step approval is required to merge from the remote branch to the remote repository.
 2) All administrators are allowed to override the two step review and one step approval.
 
