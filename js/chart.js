@@ -1,4 +1,4 @@
-new Chart(document.getElementById("line-chart"), {
+var myChart = new Chart(document.getElementById("line-chart"), {
     type: 'line',
     data: {
         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
@@ -25,3 +25,4 @@ new Chart(document.getElementById("line-chart"), {
         }
     }
 });
+
