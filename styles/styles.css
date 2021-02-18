@@ -19,30 +19,95 @@ body {
 }
 
 .frame {
-    border: 1px solid #1789FC;
+  border: 5px solid #1789FC;
 }
 
 
 /* index.html page */
 
 .button__container {
-    margin: 5%;
+  text-align: center;
+  padding: 1rem;
 }
 
 .frame--sunshine {
-    width: 30vw;
-    margin: 2% auto;
+  margin: 2% auto;
 }
 
-.img--sunshine {
-    display: block;
-    margin: 0 auto;
+.img--sunshine{
+  display: block;
+  margin: 0 auto;
 }
 
+/*** My Walks CSS **/
+
+.card {
+    width: 380px;
+    border: none;
+    height: 280px
+}
+
+.ratings {
+    margin-right: 10px
+}
+
+.ratings i {
+    color: #cecece;
+    font-size: 32px
+}
+
+.rating-color {
+    color: #fbc634 !important
+}
+
+.review-count {
+    font-weight: 400;
+    color: #296EB4;
+    margin-bottom: 2px;
+    font-size: 24px !important
+}
+
+.small-ratings i {
+    color: #cecece
+}
+
+.review-stat {
+    font-weight: 300;
+    color: #296EB4;
+    font-size: 18px;
+    margin-bottom: 2px
+}
 
 /* individual_walk.html page */
 
 .star_checked {
     color: orange;
     font-size: xx-large;
+}
+
+/* weather_page */
+
+
+/* Media Queries to match Bootstrap viewport sizes */
+/* Small - ≥576px */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+ 
+}
+/* Medium - ≥768px */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+ 
+}
+/* Large - ≥992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+/* Extra Large - ≥1200px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+ 
+}
+/* Extra extra Large - ≥1400px */
+@media only screen and (min-width: 1400px) {
+ 
+
+  
 }
