@@ -30,9 +30,9 @@ If the feature name is more than one word then each word must be separated with 
 For creating a new branch the git command would be similar to below:
 git checkout -b FEAT_sunshine_api  <br/>
 For pushing a change to the remote branch the git command would be similar to the below commands:
-git add .  <br/>
-git commit -m “FEAT: Individual_walk”  <br/>
-git push origin br_sunshine_api  <br/>
+-git add .  <br/>
+-git commit -m “FEAT: Individual_walk”  <br/>
+-git push origin br_sunshine_api  <br/>
 	
 ### Merging changes to the main branch
 Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
@@ -40,11 +40,11 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 #### Usage
 Merging to the main branch should happen by each team member once per day
 When a member of the team has completed work in their branch they should first initiate a pull from the remote main branch to their local main branch following the below commands (FEAT_sunshine_api represents the name of the branch that was created which contains the code changes):
-git checkout main <br/>
-git pull origin main <br/>
-git checkout FEAT_sunshine_api <br/>
-git merge main <br/>
-git push origin FEAT_sunshine_api <br/>
+-git checkout main <br/>
+-git pull origin main <br/>
+-git checkout FEAT_sunshine_api <br/>
+-git merge main <br/>
+-git push origin FEAT_sunshine_api <br/>
 Before merging the changes to the remote main branch you should initiate a pull request via the pull request menu at the top of the repository in GitHub.
 Set the base branch as main
 Set the compare branch to the branch containing the change
@@ -59,15 +59,15 @@ The commit command is used to save changes to a local repository after staging i
 
 The below naming convention and rules should be used when committing any change to any repository in this project:
 
-The first word of the commit should be the keyword from the ‘Change Type’ list above in this document with capitalization of each character.
-Followed by a semicolon and space character
-Followed by a brief description of the change where the first character of the sentence is capitalized
-Total length of the commit message is limited to 50 chars
-Commits to the repository should be little and often
+-The first word of the commit should be the keyword from the ‘Change Type’ list above in this document with capitalization of each character. <br/>
+-Followed by a semicolon and space character <br/>
+-Followed by a brief description of the change where the first character of the sentence is capitalized <br/>
+-Total length of the commit message is limited to 50 chars <br/>
+-Commits to the repository should be little and often
 
 #### Usage
 For fixing a bug in code the git command would be similar to below:
-git commit -m “FIX: Null Exception in Function GetWeather”
+-git commit -m “FIX: Null Exception in Function GetWeather”
 
 ### Branch Rules
 In this project we are enforcing a two step review and approval by the code owner for each change to each branch.
