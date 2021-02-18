@@ -1,59 +1,111 @@
-/* register page */
+/* General styling */
+
+body {
+    background-color: white;
+}
+
 .header {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 18px;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .heading {
-  margin:auto;
-  color: #296EB4;
+    color: #296EB4
 }
 
-.container-fluid{
-  margin: 10px;
-  outline: 1px solid #FDB833;
-  padding: 10px;
-
+.heading3 {
+    text-align: center;
+    color: #296EB4
 }
 
-.form-register{
-  color: #296EB4;
-  margin: 15px;
-  
-}
-.form-group {
-  padding-block: 4px 6px;
-}
-.form-control {
-  border-block-color: #FDB833;
-  
-}
-.pict-responsive {
-    width: 50%;
-    height: auto;
-    display: flex;
-    margin:auto;
-
+.frame {
+  border: 5px solid #1789FC;
 }
 
-.btn-group button {
-    background-color: #595bd3; /* Green background */
-    margin-bottom : 16px;
-    border: 1px solid #595bd3; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 120px; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-    align-items: center;
-   }
-  
-  .btn-group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-  }
-  
-  /* Add a background color on hover */
-  .btn-group button:hover {
-    background-color: #2c2d64;
-  }
+
+/* index.html page */
+
+.button__container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.frame--sunshine {
+  margin: 2% auto;
+}
+
+.img--sunshine{
+  display: block;
+  margin: 0 auto;
+}
+
+/*** My Walks CSS **/
+
+.card {
+    width: 380px;
+    border: none;
+    height: 280px
+}
+
+.ratings {
+    margin-right: 10px
+}
+
+.ratings i {
+    color: #cecece;
+    font-size: 32px
+}
+
+.rating-color {
+    color: #fbc634 !important
+}
+
+.review-count {
+    font-weight: 400;
+    color: #296EB4;
+    margin-bottom: 2px;
+    font-size: 24px !important
+}
+
+.small-ratings i {
+    color: #cecece
+}
+
+.review-stat {
+    font-weight: 300;
+    color: #296EB4;
+    font-size: 18px;
+    margin-bottom: 2px
+}
+
+/* individual_walk.html page */
+
+.star_checked {
+    color: orange;
+    font-size: xx-large;
+}
+
+/* weather_page */
+
+
+/* Media Queries to match Bootstrap viewport sizes */
+/* Small - ≥576px */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+ 
+}
+/* Medium - ≥768px */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+ 
+}
+/* Large - ≥992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+/* Extra Large - ≥1200px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+ 
+}
+/* Extra extra Large - ≥1400px */
+@media only screen and (min-width: 1400px) {
+ 
+}
