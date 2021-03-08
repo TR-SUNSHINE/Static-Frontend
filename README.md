@@ -72,5 +72,4 @@ The below naming convention and rules should be used when committing any change 
 
 ### Branch Rules
 1) A two step review and one step approval is required to merge from the remote branch to the remote repository.
-2) To facilitate a roll back procedure, no deletions of branches will be allowed in any repository.
 
